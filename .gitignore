@@ -1,0 +1,81 @@
+# ======================
+# Build artifacts
+# ======================
+build/
+*.dll
+*.lib
+*.so
+*.dylib
+*.exp
+*.pdb
+*.exe
+*.obj
+*.o
+*.a
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.vcxproj*
+*.sln
+
+# ======================
+# Python artifacts
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+.eggs/
+*.so
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# ======================
+# IDE and editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ======================
+# Generated outputs 
+# ======================
+# Debug/experiment images
+*_debug.png
+debug_*.png
+viszero_debug_*.png
+ycb_mustard_debug.png
+bop_result_*.png
+bop_test_render.png
+debug_network_view.png
+
+# Video outputs
+*.mp4
+
+# PPM outputs
+*.ppm
+
+# Model weights (too large for git)
+*.pt
+*.pth
+*.onnx
+
+# Dataset directories (generated)
+dataset/
+dataset_*/
+
+
+# 
+!samples/  (showcase directory - tracked)
+!*.gif     (small animated demos - tracked)
